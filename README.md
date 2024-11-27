@@ -16,8 +16,21 @@
 
 ## 3. 프로그램 설치 방법
 
+### 가상환경 설정
+```bash
+# 가상환경 생성
+python -m venv edm_env
+
+# 가상환경 활성화
+## Windows
+edm_env\Scripts\activate
+## Linux/Mac
+source edm_env/bin/activate
+```
+
 ### 필수 라이브러리 설치
 ```bash
+# 가상환경이 활성화된 상태에서 실행
 pip install torch torchvision torchaudio
 pip install audiocraft
 pip install moviepy
@@ -37,13 +50,18 @@ project/
 
 ## 4. 프로그램 구동 방법
 
-### CLI 모드 실행
+### 가상환경 활성화 후 실행
 ```bash
-python main.py
-```
+# 1. 가상환경 활성화
+## Windows
+edm_env\Scripts\activate
+## Linux/Mac
+source edm_env/bin/activate
 
-### 웹 인터페이스 실행
-```bash
+# 2. 프로그램 실행
+## CLI 모드
+python main.py
+## 웹 인터페이스
 python web_app.py
 ```
 
