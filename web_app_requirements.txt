@@ -1,0 +1,29 @@
+# 기본 프레임워크
+torch>=2.0.0
+torchaudio>=2.0.0
+gradio==3.50.2
+
+# audiocraft 및 관련 라이브러리
+audiocraft==1.0.0
+numpy==1.23.5
+scipy>=1.10.0
+librosa>=0.9.1
+ffmpeg-python>=0.2.0
+
+# 텍스트 처리
+spacy==3.5.2
+pydantic==1.10.12
+
+# 유틸리티
+tqdm>=4.65.0
+requests>=2.28.0
+pillow>=9.3.0
+matplotlib>=3.7.0
+einops>=0.6.1
+
+# 오디오 처리
+soundfile>=0.12.1
+demucs>=4.0.0
+
+# 비디오 생성
+moviepy>=1.0.3
