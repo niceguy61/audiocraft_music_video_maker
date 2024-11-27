@@ -1,2 +1,3 @@
 .venv
 edm_env
+__pycache__
